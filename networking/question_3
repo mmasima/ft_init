@@ -1,1 +1,1 @@
-ifconfig en1 | grep "ether " | awk '{print $2}'
+ifconfig $(awk 'NR==3{print $1}' /proc/net/wireless | tr -d :) | awk '/ether/{print $2}'

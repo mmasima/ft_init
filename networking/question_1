@@ -1,1 +1,1 @@
-ifconfig -l
+ip link show | awk -F': ' '{print $2}'

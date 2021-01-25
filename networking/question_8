@@ -1,1 +1,5 @@
-to find the provider you run : whois slash16.org and you will see that the provider is AWS
+to find the provider you run : 
+
+whois slash16.org | grep "Name Server"
+
+and you will see that the provider is AWS

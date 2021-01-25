@@ -1,1 +1,3 @@
 cat /var/run/resolv.conf
+
+The path has the ip address of the used DNS server
