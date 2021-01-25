@@ -1,1 +1,1 @@
-ls /home
+systemctl list-units --type service --all
